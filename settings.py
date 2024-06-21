@@ -7,3 +7,8 @@ class Settings():
         self.screen_width = 1200
         self.screen_height = 800
         self.bg_color = (48,25,52)
+
+        # Butterfly settings
+        self.butterfly_speed_factor = 1.5
+
+        
