@@ -4,7 +4,7 @@ import pygame
 from bullet import Bullet
 
 def check_events(ai_settings, screen, butterfly, bullets):
-    """Respond to keypresses and mouse events"""
+    """Respond to key presses and mouse events"""
     #Watch for keyboard and mouse events
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -18,7 +18,7 @@ def check_events(ai_settings, screen, butterfly, bullets):
             check_keyup_events(event, butterfly)
 
 def check_keydown_events(event, ai_settings, screen, butterfly, bullets):
-    """Respond to keypresses"""
+    """Respond to key presses"""
     if event.key == pygame.K_RIGHT:
         # move butterfly to right
         butterfly.moving_right = True
