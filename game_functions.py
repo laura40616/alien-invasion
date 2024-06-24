@@ -11,7 +11,6 @@ def check_events(ai_settings, screen, butterfly, bullets):
             sys.exit()
 
         elif event.type == pygame.KEYDOWN:
-            print(event.key)
             check_keydown_events(event, ai_settings, screen, butterfly, bullets)   
 
         elif event.type == pygame.KEYUP:
